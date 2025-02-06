@@ -84,7 +84,9 @@ class Order:
 
 
     def place_single_order(self, data):
-        return self.fyers.place_order(data)
+        fyers = fyersModel.FyersModel(client_id=CLIENT_ID, token=self.access_token,is_async=False, log_path="")
+        response = fyers.place_order(data=data)
+        return response["message"]
 
     def place_multi_orders(self, data):
         return self.fyers.place_basket_orders(data)
