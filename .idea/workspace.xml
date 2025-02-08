@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ed5fb77-d109-4c60-81ea-dd56f1102dbb" name="Changes" comment="Implemented live data feed tracking and fetching through websockets and handled websocket connection in a separate thread..">
-      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade_nifty_listener.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trade_stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trade_VI_stock_listener.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trade_nifty_index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_feed.py" beforeDir="false" afterPath="$PROJECT_DIR$/trade_nifty.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fyersApi.log" beforeDir="false" afterPath="$PROJECT_DIR$/fyersApi.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fyersDataSocket.log" beforeDir="false" afterPath="$PROJECT_DIR$/fyersDataSocket.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fyersRequests.log" beforeDir="false" afterPath="$PROJECT_DIR$/fyersRequests.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade_nifty.py" beforeDir="false" afterPath="$PROJECT_DIR$/trade_VI_stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade_nifty_listener.py" beforeDir="false" afterPath="$PROJECT_DIR$/trade_nifty_index_listener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade_stock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738843889373</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented live data feed tracking and fetching through websockets and handled websocket connection in a separate thread..">
+      <option name="closed" value="true" />
+      <created>1739005375420</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739005375420</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

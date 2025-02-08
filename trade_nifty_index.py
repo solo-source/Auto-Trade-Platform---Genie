@@ -69,7 +69,7 @@ def place_order(side, access_token):
     :return: Response from the order placement.
     """
     order_data = {
-        "symbol": "NSE:IDEA-EQ",  # Ensure this symbol is correct for your API.
+        "symbol": "###Enter Relevent Symbol",  # Ensure this symbol is correct for your API.
         "qty": 1,                       # Quantity as an integer.
         "type": 2,                      # Market order type = 2
         "side": side,                   # 1 for buy, -1 for sell.

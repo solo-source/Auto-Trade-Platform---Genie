@@ -122,3 +122,15 @@ class Profile:
                     print("Remaining Pledged Quantity: ", holding["remainingPledgedQuantity"])
         else:
             print("Error: \n" + response["code"] + " -  " + response["message"])
+
+    def get_user_positions(self):
+        # Initialize the FyersModel instance with your client_id, access_token, and enable async mode
+        self.fyers = fyersModel.FyersModel(
+            client_id=CLIENT_ID, is_async=False, token=self.access_token, log_path=""
+        )
+
+        response = self.fyers.positions()
+
+        if response["code"] == 200 and response["s"] == "ok":
+            netPositions = response["netPositions"]
+            overall = response["overall"]

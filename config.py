@@ -6,3 +6,7 @@ REDIRECT_URI = "https://trade.fyers.in/api-login/redirect-uri/index.html"
 GRANT_TYPE = "authorization_code"
 RESPONSE_TYPE = "code"
 STATE = "123"
+stockSymbols = ["NSE:IDEA-EQ",]
+indexSymbols = []
+currencySymbols = []
+commoditiesSymbols = []

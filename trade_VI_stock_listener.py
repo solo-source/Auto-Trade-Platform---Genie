@@ -1,19 +1,19 @@
-# trade_nifty_listener.py
+# trade_VI_stock_listener.py
 import sys
 import threading
 from os import access
 
-from trade_nifty import connect_fyers_websocket_nifty
+from trade_VI_stock import connect_fyers_websocket_stock_VI
 
 def run_websocket(full_access_token, access_token):
     """
     Function to run the WebSocket connection.
     """
-    connect_fyers_websocket_nifty(full_access_token, access_token)
+    connect_fyers_websocket_stock_VI(full_access_token, access_token)
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python trade_nifty_listener.py <full_access_token>")
+        #print("Usage: python trade_VI_stock_listener.py <full_access_token>")
         sys.exit(1)
     full_access_token = sys.argv[1]
     access_token = sys.argv[2]
