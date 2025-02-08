@@ -16,7 +16,8 @@ class Order:
         response = fyers.orderbook()
         if response["code"] == 200 and response["s"] == "ok":
             orderBooks = response["orderBook"]
-            print("-------------------------------------------------ALL ORDERS---------------------------------------------------")
+            print(
+                "-------------------------------------------------ALL ORDERS---------------------------------------------------")
         else:
             print("Error: \n" + response["code"] + " -  " + response["message"])
 
@@ -24,8 +25,8 @@ class Order:
             print("Empty Order List.")
         else:
             for orderBook in orderBooks:
-                print("\n Order No: ", orderBook["s1No"])
-                print("Order ID: ", orderBooks["id"])
+                print("\n Order No: ", orderBook["slNo"])
+                print("Order ID: ", orderBook["id"])  # Corrected here
                 print("Symbol: ", orderBook["symbol"])
                 print("Client ID: ", orderBook["clientId"])
                 print("PAN: ", orderBook["pan"])
@@ -72,7 +73,7 @@ class Order:
                 if orderBook["side"] == 1:
                     print("Order For: BUY")
                 else:
-                    print("Oder For: SELL")
+                    print("Order For: SELL")
 
                 print("Order Validity: ", orderBook["orderValidity"])
                 print("Order Date & Time: ", orderBook["orderDateTime"])
@@ -81,7 +82,6 @@ class Order:
                 print("Remaining Quantity: ", orderBook["remainingQuantity"])
                 print("Filled Quantity: ", orderBook["filledQty"])
                 print("Disclosed Quantity: ", orderBook["disclosedQty"])
-
 
     def place_single_order(self, data):
         fyers = fyersModel.FyersModel(client_id=CLIENT_ID, token=self.access_token,is_async=False, log_path="")

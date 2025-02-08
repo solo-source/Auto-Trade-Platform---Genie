@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ed5fb77-d109-4c60-81ea-dd56f1102dbb" name="Changes" comment="Implimented market strategy and order placement.">
-      <change afterPath="$PROJECT_DIR$/data_feed.py" afterDir="false" />
+    <list default="true" id="4ed5fb77-d109-4c60-81ea-dd56f1102dbb" name="Changes" comment="Implemented live data feed tracking and fetching through websockets and handled websocket connection in a separate thread..">
+      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trade_nifty_listener.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trade_stock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_feed.py" beforeDir="false" afterPath="$PROJECT_DIR$/trade_nifty.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fyersApi.log" beforeDir="false" afterPath="$PROJECT_DIR$/fyersApi.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fyersDataSocket.log" beforeDir="false" afterPath="$PROJECT_DIR$/fyersDataSocket.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fyersRequests.log" beforeDir="false" afterPath="$PROJECT_DIR$/fyersRequests.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/order.py" afterDir="false" />
@@ -117,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738516908306</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented live data feed tracking and fetching through websockets and handled websocket connection in a separate thread..">
+      <option name="closed" value="true" />
+      <created>1738843889373</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738843889373</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Getting started with fyers api project to build an auto tarding platform." />
     <MESSAGE value="Implimented market strategy and order placement." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implimented market strategy and order placement." />
+    <MESSAGE value="Implemented live data feed tracking and fetching through websockets and handled websocket connection in a separate thread.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented live data feed tracking and fetching through websockets and handled websocket connection in a separate thread.." />
   </component>
 </project>
