@@ -127,3 +127,5 @@
 {"level":"ERROR","location":"[post_call:86] fyersModel","message":{"API":"/orders/sync","Error":{"code":-50,"message":"The input symbol is invalid.","s":"error"}},"timestamp":"2025-02-07 14:27:50,119+0530","service":"FyersAPI"}
 {"level":"ERROR","location":"[post_call:86] fyersModel","message":{"API":"/orders/sync","Error":{"code":-50,"message":"The input symbol is invalid.","s":"error"}},"timestamp":"2025-02-07 14:28:12,716+0530","service":"FyersAPI"}
 {"level":"ERROR","location":"[post_call:86] fyersModel","message":{"API":"/orders/sync","Error":{"code":-50,"message":"The input symbol is invalid.","s":"error"}},"timestamp":"2025-02-07 14:28:23,207+0530","service":"FyersAPI"}
+{"level":"ERROR","location":"[post_call:86] fyersModel","message":{"API":"/orders/sync","Error":{"code":-50,"message":"The input symbol is invalid.","s":"error"}},"timestamp":"2025-02-21 11:42:19,481+0530","service":"FyersAPI"}
+{"level":"ERROR","location":"[post_call:86] fyersModel","message":{"API":"/orders/sync","Error":{"code":-50,"message":"The input symbol is invalid.","s":"error"}},"timestamp":"2025-02-21 11:42:22,364+0530","service":"FyersAPI"}
